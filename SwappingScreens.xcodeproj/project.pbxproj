@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2D2183651FE7E4520055979C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183641FE7E4520055979C /* AppDelegate.swift */; };
-		2D2183671FE7E4520055979C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183661FE7E4520055979C /* ViewController.swift */; };
+		2D2183671FE7E4520055979C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183661FE7E4520055979C /* LoginVC.swift */; };
 		2D21836A1FE7E4520055979C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2183681FE7E4520055979C /* Main.storyboard */; };
 		2D21836C1FE7E4520055979C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D21836B1FE7E4520055979C /* Assets.xcassets */; };
 		2D21836F1FE7E4520055979C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D21836D1FE7E4520055979C /* LaunchScreen.storyboard */; };
 		2D21837A1FE7E4520055979C /* SwappingScreensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183791FE7E4520055979C /* SwappingScreensTests.swift */; };
 		2D2183851FE7E4520055979C /* SwappingScreensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183841FE7E4520055979C /* SwappingScreensUITests.swift */; };
+		2D2183931FE7E6A70055979C /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183921FE7E6A70055979C /* MusicListVC.swift */; };
+		2D2183951FE7EE2C0055979C /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2183941FE7EE2C0055979C /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2D2183611FE7E4520055979C /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2183641FE7E4520055979C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D2183661FE7E4520055979C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D2183661FE7E4520055979C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		2D2183691FE7E4520055979C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D21836B1FE7E4520055979C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D21836E1FE7E4520055979C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		2D2183801FE7E4520055979C /* SwappingScreensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwappingScreensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2183841FE7E4520055979C /* SwappingScreensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwappingScreensUITests.swift; sourceTree = "<group>"; };
 		2D2183861FE7E4520055979C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D2183921FE7E6A70055979C /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		2D2183941FE7EE2C0055979C /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				2D2183641FE7E4520055979C /* AppDelegate.swift */,
-				2D2183661FE7E4520055979C /* ViewController.swift */,
+				2D2183661FE7E4520055979C /* LoginVC.swift */,
 				2D2183681FE7E4520055979C /* Main.storyboard */,
 				2D21836B1FE7E4520055979C /* Assets.xcassets */,
 				2D21836D1FE7E4520055979C /* LaunchScreen.storyboard */,
 				2D2183701FE7E4520055979C /* Info.plist */,
+				2D2183921FE7E6A70055979C /* MusicListVC.swift */,
+				2D2183941FE7EE2C0055979C /* PlaySongVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D2183671FE7E4520055979C /* ViewController.swift in Sources */,
+				2D2183931FE7E6A70055979C /* MusicListVC.swift in Sources */,
+				2D2183951FE7EE2C0055979C /* PlaySongVC.swift in Sources */,
+				2D2183671FE7E4520055979C /* LoginVC.swift in Sources */,
 				2D2183651FE7E4520055979C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raushan.SwappingScreens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -427,6 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raushan.SwappingScreens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
